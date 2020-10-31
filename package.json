@@ -1,12 +1,12 @@
 {
-    "name": "gotemplate",
-    "displayName": "gotemplate-syntax",
-    "description": "Language support for go text/template",
+    "name": "gotemplate-bracket",
+    "displayName": "gotemplate-syntax-brackets",
+    "description": "Language support for go text/template with square bracket delimeters([[ and ]] instead of {{ and }}).",
     "version": "0.4.0",
-    "publisher": "casualjim",
+    "publisher": "douyw",
     "repository": {
         "type": "git",
-        "url": "https://github.com/casualjim/vscode-gotemplate"
+        "url": "https://github.com/douyw/vscode-gotemplate"
     },
     "engines": {
         "vscode": "^0.10.1"

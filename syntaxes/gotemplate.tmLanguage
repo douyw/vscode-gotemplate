@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>foldingStartMarker</key>
-	<string>\{\{\s*(?:if|with|range)\b</string>
+	<string>\[\[\s*(?:if|with|range)\b</string>
 	<key>foldingStopMarker</key>
-	<string>\{\{\s*(?:else|end)\b</string>
+	<string>\[\[\s*(?:else|end)\b</string>
 	<key>name</key>
 	<string>GoSublime: Template</string>
 	<key>patterns</key>
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>\{\{</string>
+			<string>\[\[</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>0</key>
@@ -22,7 +22,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>\}\}</string>
+			<string>\]\]</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>0</key>
